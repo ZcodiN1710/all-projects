@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c173f;
+  color: white;
+}
+.tipCalContainer {
+  background-color: #1c173f;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 3px 3px 10px #473f7a;
+}
+.bill,
+.tip {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.billinputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #473f7a;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    padding-left: 19px;
+    padding-right: 10px;
+}
+.billinputContainer span{
+    font-size: 20px;
+    padding-left: 10px;
+    position: absolute;
+    left: -3px;
+}
+.tipInputContainer{
+    display: flex;
+    align-items: center;
+    background-color: #473f7a;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+.tipInputContainer span{
+    font-size: 20px;
+    position: absolute;
+    right: 269px;
+}
+
+
+
+#billInput, #tipInput {
+border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  width: 290px;
+  height: 30px;
+  background-color: #473f7a;
+  color: white;
+  outline: none;
+}
+#tipInput{
+    padding-left: 7px;
+    width: 310px;
+}
+.totalContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.totalPerPerson{
+    text-align: right;
+}
+.people,
+.totalPerPersonPara {
+  font-size: 17px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.people {
+  margin-bottom: 10px !important;
+  margin-right: 60px;
+}
+
+.totalPaidPerPerson {
+  font-size: 33px !important ;
+}
+.plusMinus {
+  display: flex;
+  gap: 10px;
+}
+.plusSign,
+.minusSign {
+  font-size: 20px;
+  background-color: #473f7a;
+  border: white solid 1px;
+  padding: 1px 7px;
+  border-radius: 80%;
+}
+.minusSign {
+  padding: 0px 9px;
+}
+.numOfPeople {
+  font-size: 20px;
+  border: white solid 1px;
+  border-radius: 80%;
+  padding: 1px 7px;
+}

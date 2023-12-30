@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.passwordGeneratorContainer {
+  text-align: center;
+  box-shadow: 2px 2px 5px;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.inputDiv {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+}
+input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 10px;
+  box-shadow: 2px 2px 5px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.icon-copy {
+  font-size: large;
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.icon-copy:hover{
+    opacity: 1;
+}
+button {
+  all: unset;
+  font-size: 20px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.alertCopy{
+    position: fixed;
+    right: -900px;
+    top: 360px;
+    background-color: lightgreen;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.active.alertCopy{
+    right: 390px;
+    top: 360px;
+}

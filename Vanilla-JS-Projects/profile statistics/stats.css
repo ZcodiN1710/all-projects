@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.statsMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 60px;
+    text-align: center;
+    font-size: larger;
+}
+.yearExperienceContainer,.websMadeContainer, .appsMadeContainer{
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    position: relative;
+}
+.icon-briefcase{
+    font-size: 25px;
+    position: absolute;
+    right: 80px;
+    top: -15px;
+    
+}
+.icon-cloud{
+    font-size: 25px;
+    position: absolute;
+    right: 60px;
+    top: -15px;
+
+}   
+.icon-appleinc{
+    font-size: 25px;
+    position: absolute;
+    right: 47px;
+    top: -15px;
+}
+.numOfApps, .numOfWebs, .numOfYears{
+    color: blue;
+}

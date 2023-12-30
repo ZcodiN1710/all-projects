@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient( to left bottom, lightgreen, lightblue);
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.QuoteGeneratorContainer {
+  width: 80%;
+  padding: 15px 20px;
+  background-color: rgb(255, 255, 255, .2);
+  box-shadow: 1px 1px 4px grey;
+  border-radius: 10px;
+}
+h1{
+  font-size: 30px;
+}
+.QuoteContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* overflow: hidden; */
+    /* text-align: center; */
+  }
+  .quote{
+    font-size: 23px;
+ 
+  }
+  /* i{
+    
+    height: 0;
+  } */
+  cite {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold !important;
+  }
+  
+  button:hover {
+    background-color: lightgreen;
+  }
+button {
+  all: unset;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 20px;
+  box-shadow: 1px 1px 4px grey;
+  cursor: pointer;
+}
+

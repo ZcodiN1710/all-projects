@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(198, 218, 234);
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: monospace;
+}
+.feedbackUIContainer {
+  width: 300px;
+  padding: 15px 20px;
+  background-color: rgb(198, 218, 234);
+  box-shadow: 1px 1px 4px grey;
+  border-radius: 10px;
+}
+h1 {
+  color: darkgreen;
+  font-size: 25px;
+}
+.emojisContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.paraContainer{
+  padding: 10px;
+  font-weight: bold;
+}
+.paraContainer:hover {
+  background-color: darkseagreen;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.emoji {
+  font-size: 30px;
+}
+button {
+  all: unset;
+  color: white;
+  background-color:darkgreen;
+  border-radius:5px;
+  font-size: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:active{
+  transform: scale(.96);
+  transition: all 300ms ease;
+}
+/* ====================================== */
+.reviewSent {
+  display: none;
+  width: 280px;
+  padding: 10px 20px;
+  background-color: rgb(198, 218, 234);
+  box-shadow: 1px 1px 4px grey;
+  border-radius: 10px;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* ============================ */
+.active{
+  background-color: darkseagreen;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+/* .active-reviewSent{
+  display: block;
+} */

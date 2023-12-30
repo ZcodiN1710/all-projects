@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(198, 218, 234);
+    align-items: center;
+    height: 100vh;
+  }
+  .loanContainer {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, .3);
+    box-shadow: 1px 1px 4px grey;
+    border-radius: 10px;
+    
+  }
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  input {
+    all: unset;
+    width: 200px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 4px grey;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+  }
+  .loanAmount ,.intrestRate, .monthsToPay{
+    padding: 7px;
+  }
+  .last{
+    font-size: 18px;
+    padding: 7px;
+  }

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  aliceblue;
+    padding: 8px 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+    margin-bottom: 15px;
+    width: 250px;
+    cursor: pointer;
+    color: grey;
+}
+.inputContainer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: black;
+    padding-left: 5px;
+}
+.icon-cheveron-down{
+    color: grey;
+    font-size: large;
+    cursor: pointer;
+    transition: all .6s;
+}
+.activeIconCheveronDown{
+    transform: rotate(180deg);
+}
+.mediasContainer{
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+   height:160px;
+   overflow: hidden;
+   transition: all .6s;
+  }
+  .activemediasContainer{
+    height: 0;
+    transition: all .6s;
+  }
+  .medias{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  span{
+    font-size: 15px;
+  }
+  

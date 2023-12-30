@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  top: 50px;
+  z-index: 2;
+  color: darkgray;
+}
+.clockContainer {
+  position: relative;
+  background-color: lightgrey;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 5px solid darkgray;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+.numbers div {
+  position: absolute;
+  font-size: 27px;
+  font-weight: bold;
+  color: lightgoldenrodyellow;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.numbers :nth-child(1) {
+  top: 6px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.numbers :nth-child(2) {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.numbers :nth-child(3) {
+  bottom: 6px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.numbers :nth-child(4) {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.arrows{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.arrows::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+    z-index: 4;
+}
+.arrows div{
+    background-color: white;
+    width: 7px;
+    position: absolute;
+    height: 120px;
+    transform-origin: bottom center;
+    bottom: 50%;
+    z-index: 3;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+}
+.arrows :nth-child(1){
+    height: 80px;
+    transform: rotate(30deg);
+}
+.arrows :nth-child(3){
+    transform: rotate(250deg);
+    background-color: goldenrod;
+}

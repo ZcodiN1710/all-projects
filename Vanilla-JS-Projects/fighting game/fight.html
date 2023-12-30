@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fighting Game</title>
+    <link rel="stylesheet" href="fight.css" />
+    <script defer src="fight.js"></script>
+  </head>
+  <body>
+    <div class="fightGameContainer">
+      <!-- ============================================= -->
+      <div class="player1">
+        <div class="p1name">player1</div>
+        <img  src="https://i.gifer.com/Gpm.gif" alt="" />
+        <div class="attackHeal">
+          <div class="attackContainer">
+            <p>Q:</p>
+            <p class="attack">Attack</p>
+          </div>
+          <div class="healContainer">
+            <p>A:</p>
+            <p class="Heal">Heal</p>
+          </div>
+        </div>
+        <div class="p1Healthscore">100</div>
+       
+      </div>
+    <!-- ============================================= --> 
+      <div class="simulateDiv">
+        <button id="simulate">Simulate</button>
+      </div>
+
+    <!-- ============================================= -->
+
+      <div class="player2">
+        <div class="p2name">player2</div>
+        <img class="player1img" src="https://i.gifer.com/HaCB.gif" alt="" />
+        <div class="attackHeal">
+          <div class="attackContainer">
+            <p>P:</p>
+            <p class="attack">Attack</p>
+          </div>
+          <div class="healContainer">
+            <p>L:</p>
+            <p class="Heal">Heal</p>
+          </div>
+        </div>
+        <div class="p2Healthscore">100</div>
+      </div>
+      <div class="reset">
+        <button id="reset">RESET GAME</button>
+      </div>
+      <!-- ============================================= -->
+      <div class="result">
+        <p></p>
+      </div>
+      <audio id="p1punch" controls style="display: none;">
+        <source src="/JS-challenges/fighting game/audio/punch-1-166694.mp3" type="audio/mp3">
+      </audio>
+      <audio id="p1heal" controls style="display: none;">
+        <source src="/JS-challenges/fighting game/audio/heal-up-39285.mp3" type="audio/mp3">
+      </audio>
+      <audio id="p2punch" controls style="display: none;">
+        <source src="/JS-challenges/fighting game/audio/punch-6-166699.mp3" type="audio/mp3">
+      </audio>
+      <audio id="p2heal" controls style="display: none;">
+        <source src="/JS-challenges/fighting game/audio/healpop-46004.mp3" type="audio/mp3">
+      </audio>
+      <audio id="victory" controls style="display: none;">
+        <source src="/JS-challenges/fighting game/audio/tadaa-47995.mp3" type="audio/mp3">
+      </audio>
+    </div>
+  </body>
+</html>

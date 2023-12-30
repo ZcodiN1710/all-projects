@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  h1{
+    margin-top: 35px;
+  }
+.dice{
+    font-size: 70px;
+    animation: 1s forwards;
+}
+.rollAnimation{
+  animation-name: roll;
+}
+@keyframes roll {
+  from{
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+  to{
+    transform: rotateY(720deg) rotateX(720deg);
+  }
+}
+  button {
+   all: unset;
+   color: white;
+   font-weight: bold;
+   background-color: rgb(62, 62, 217);
+   border-radius: 10px;
+   font-size: 20px;
+   padding: 5px 10px;
+   cursor: pointer;
+   margin-top: 10px;
+   margin-bottom: 25px;
+ }
+ 
+.innerResult{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 7px;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 3px grey;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+ .diceRolled{
+    font-size: 30px;
+    margin-bottom: 4px;
+ }

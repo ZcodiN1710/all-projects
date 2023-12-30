@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="TipCal.css">
+    <script defer src="/JS-challenges/Tip Calculator/tipCal.js"></script>
+</head>
+<body>
+    <div class="tipCalContainer">
+        <div class="billTipContainer">
+        <div class="bill">
+            <p>Bill Total</p>
+            <form >
+                <div class="billinputContainer">
+                <span>$</span>
+                <input type="number" id="billInput" placeholder="0.00" onkeyup="totalPaid()">
+               </div>
+            </form>
+        </div>
+        <div class="tip">
+            <p>Tip Total</p>
+            <form >
+                <div class="tipInputContainer">
+                <input type="number" id="tipInput" placeholder="00" onkeyup="totalPaid()"><span>%</span>
+                </div>
+            </form>
+        </div>
+    </div>
+        <div class="totalContainer">
+            <div class="people">
+                <p class="people">People</p>
+                <div class="plusMinus">
+                    <p class="minusSign">-</p>
+                    <p class="numOfPeople">1</p>
+                    <p class="plusSign" onclick="increaseDecreasePeople()">+</p>
+                </div>
+            </div>
+            <div class="totalPerPerson">
+                <p class="totalPerPersonPara">Total Per Person</p>
+                <span class="totalPaidPerPerson"> $00.00</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

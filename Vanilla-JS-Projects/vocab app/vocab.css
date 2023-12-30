@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  padding-bottom: 10px;
+}
+/* .vocabsMainContainer{
+  border: solid white;
+   box-shadow: 2px 2px 5px rgb(24, 24, 24);
+   padding: 10px 15px;
+   height: 200px;
+} */
+.tableContainer{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0px 10px;
+}
+table,th,td{
+  border: solid white 3px;
+}
+td{
+  padding: 5px 5px;
+  font-size: 16px;
+}
+th{
+  color: deepskyblue;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 20px
+}
+img{
+  width: 20px;
+  padding: 0px 5px;
+  
+}
+img:hover{
+  width: 130px;
+}

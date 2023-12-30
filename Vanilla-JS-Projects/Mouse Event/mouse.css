@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+    color: lightgrey;
+}
+.mouseContainer{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.mouseContainer div{
+   
+    width: 100%;
+   margin: 30px;
+   padding: 10px;
+   text-align: center;
+}
+.num{
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+    padding: 20px 30px;
+    font-size: 30px;
+}

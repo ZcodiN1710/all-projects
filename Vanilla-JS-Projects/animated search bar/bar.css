@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.animatedBarConatainer {
+  position: relative;
+  display: flex;
+  text-align: center;
+  box-shadow: 2px 2px 5px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  
+}
+.searchBarDiv {
+  display: flex;
+  align-items: center;
+}
+input {
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+}
+.icon-mic {
+  position: absolute;
+  right: 10px;
+  font-size: small;
+}
+.icon-search {
+  position: absolute;
+  left: 10px;
+ font-size: small;
+ cursor: pointer;
+}
+ /* ===================== */
+ .activeSearchBar{
+  width: 0;
+  border-radius: 100%;
+  padding: 3px 15px;
+  transition: width 10s ease;
+ }
+ .active-icon-mic{
+  opacity: 0;
+  /* transition: .5s ease; */
+ }
+ .activeSearch{
+  opacity: 0;
+  /* transition: .5s ease; */
+ }

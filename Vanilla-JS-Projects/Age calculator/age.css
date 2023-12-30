@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+  background-color: aliceblue;
+}
+.AgeCalcContainer {
+  text-align: center;
+  box-shadow: -2px 2px 5px grey;
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+h1{
+    margin-bottom: 20px;
+}
+p{
+  font-weight: bold;
+  font-size: large;
+}
+input {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 5px 15px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  box-shadow: -1px -1px 2px grey;
+}
+button {
+  all: unset;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 89, 255);
+  box-shadow: -1px -1px 2px grey;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* button:hover {
+  font-size: 23px;
+} */
+/* button[disabled]{
+  opacity: .7;
+  cursor: none;
+} */
+
+span{
+  color: rgb(156, 1, 1);
+}

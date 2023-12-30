@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.video-container {
+  height: 100vh;
+  width: 70%;
+  height: 70vh;
+  background-color: rgb(163, 163, 163);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.video {
+  width: 100%;
+  border-radius: 15px;
+ animation: mymove 1s 1;
+ font-size: xx-large;
+}
+
+button{
+margin-top: 30px;
+border: none;
+padding:10px 15px;
+font-size: x-large;
+border-radius: 20px;
+font-weight: bolder;
+}
+button:hover{
+  cursor: pointer;  
+}
+p{
+    font-size: xx-large;
+}
+@keyframes mymove {
+   0% {transform: translate(0 , -100vh);} 
+
+   100% {transform: translate( 0 , 0);}
+}
+ .active{
+    font-size: xx-large;
+ }

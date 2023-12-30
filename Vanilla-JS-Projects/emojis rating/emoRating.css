@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.EmojisRatingContainer{
+    box-shadow: 2px 2px 5px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.emojisContainer{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.starsContainer{
+    font-size: 30px;
+}
+.icon-star-full{
+  color: gray;
+}
+.icon-angry{
+    color: red;
+}
+.icon-sad{
+    color: orange;
+}
+.icon-neutral{
+    color: lightblue;
+}
+.icon-smile{
+    color: lightgreen;
+}
+.icon-happy{
+    color: green;
+}
+/* ========JS active========== */
+
+
+.active{
+    color: goldenrod;
+}

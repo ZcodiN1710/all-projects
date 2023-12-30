@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.doubleLandingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  padding: 10px 15px;
+  background-color: darkseagreen;
+  opacity: 0.8;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.leftSideContainer {
+  background-image: url("https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-15-Pro-Max/Black-Titanium/Apple-iPhone-15-Pro-Max-Black-Titanium-frontimage.png");
+  background-size: 80% 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: aquamarine;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rightSideContainer {
+  background-color: darkgoldenrod;
+  background-image: url("https://i5.walmartimages.com/seo/Pre-Owned-SAMSUNG-Galaxy-S20-5G-128GB-Cloud-Blue-Fully-Unlocked-LCD-Shadow-Refurbished-Good_f0a0b118-f4aa-4599-8ba5-6af5eca3c42e.76e1ffa75c502c102b69dde5a12e4f80.png");
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  all: unset;
+  font-size: larger;
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+}
+.iphoneImg {
+  width: 90%;
+  height: 150%;
+}
+.sumsungImg {
+  width: 150%;
+  height: 190%;
+}

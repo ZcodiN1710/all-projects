@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #352f5b;
+    color: white;
+
+}
+.toDoListContainer{
+    text-align: center;
+}
+h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.taskContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 10px;
+    background-color: #5c558a;
+    width: 750px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 40px;
+    border-bottom: white solid 3px;
+}
+.task1{
+    font-size: larger;
+}
+.icon-star-full, .icons{
+    padding: 15px 20px;
+}
+ 
+.icon-star-full{
+    opacity: 0.5;
+    font-size: 25px
+}
+
+.icon-star-full:hover{
+    opacity: 1;
+    color: orange;
+    cursor: pointer;
+    font-size: 27px;
+    transition: .2s;
+}
+
+.icon-bin{
+    opacity: 0.5;
+    margin-right: 5px;
+    font-size: 25px
+    
+}
+
+.icon-bin:hover{
+    opacity: 1;
+    color: rgb(187, 103, 88);
+    cursor: pointer;
+    font-size: 27px;
+    transition: .2s;
+}
+
+.icon-angry2{
+    opacity: 0.5;
+    font-size: 25px
+}
+
+.icon-angry2:hover{
+    opacity: 1;
+    color: rgb(228, 86, 43);
+    cursor: pointer;
+    font-size: 27px;
+    transition: .2s;
+}
+.icon-heart{
+    color: red;
+    font-size: 25px
+}
+.icon-heart:hover{
+    cursor: pointer;
+    font-size: 27px;
+    transition: .2s;
+}
+
+/*===Active classes===*/
+.icnAngryActive{
+    display: none;
+}
+.iconHeart{
+display: none;
+}
+.task1Active{
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+}
+
+
+
+
+
+/*====form===*/
+
+form{
+    margin-top: 40px;
+}
+
+#AddTask {
+    width: 400px;
+    border: none;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    color: rgb(0, 0, 70);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #AddBtn {
+    width: 90px;
+    border: none;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    color: rgb(0, 0, 70);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  #AddBtn:hover {
+    cursor: pointer;
+  }

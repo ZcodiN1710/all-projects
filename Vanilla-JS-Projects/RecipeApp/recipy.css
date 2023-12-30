@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+h1 {
+  background-color: rgb(4, 4, 102);
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.recipyWrapper {
+  box-shadow: -1px 1px 2px grey;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+}
+.ImgandNameRecipy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+}
+.ImgandNameRecipy p {
+  min-width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+img {
+  width: 150px;
+  object-fit: cover;
+  padding-right: 20px;
+}
+
+a {
+  min-width: 120px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(4, 4, 102);
+  padding: 5px 0px;
+  cursor: pointer;
+  text-decoration: none;
+}

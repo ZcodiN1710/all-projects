@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(198, 218, 234);
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .englishDictionary{
+    width: 50%;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255, .2);
+    box-shadow: 1px 1px 4px grey;
+    border-radius: 10px;
+  }
+  input {
+      all: unset;
+      width: 80%;
+      color: black;
+      background-color: aliceblue;
+      border-radius: 10px;
+      font-size: 20px;
+      padding: 5px 10px;
+      margin-top: 20px;
+      margin-bottom:20px;
+      box-shadow: 1px 1px 4px grey;
+      text-align: left;
+  }
+  .meaningContainer{
+    display: none;
+    line-height: 30px;
+  }
