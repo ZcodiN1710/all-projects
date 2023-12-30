@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=League+Spartan:wght@400;500;700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+--Very-dark-blue-main :hsl(217, 54%, 11%);
+--Very-dark-blue: hsl(216, 50%, 16%);
+--Very-dark-blue : hsl(215, 32%, 27%);
+--White:hsl(0, 0%, 100%);
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.container {
+    background-color: var(--Very-dark-blue-main);
+    width: 100%;
+   margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.card {
+    background-color: var(--Very-dark-blue);
+    padding: 40px;
+    width: 400px;
+    border-radius: 15px;
+    
+}
+.main img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+h1 {
+    color: var(--White);
+    margin-bottom: 15px;
+}
+.main p {
+    margin-bottom: 15px;
+    color:rgba(255, 255, 255, 0.473);
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.time img {
+     padding-right: 5px;
+}
+.time .first {
+    color:aqua;
+}
+.time .second {
+    color:rgba(255, 255, 255, 0.473);
+    display: flex;
+    align-items: center;
+   
+}
+hr {
+    margin-bottom: 15px;
+
+}
+.bottom {
+    display: flex;
+    align-items: center;
+}
+.bottom img {
+    width: 40px;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+.bottom p {
+    padding: 10px;
+    color: white;
+}
+span {
+    color:rgba(255, 255, 255, 0.473);
+}
+.attribution {
+    margin-bottom: 50px
+}

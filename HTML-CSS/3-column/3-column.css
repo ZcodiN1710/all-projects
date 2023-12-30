@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+:root {
+ --Bright-orange: hsl(31, 77%, 52%);
+ --Dark-cyan: hsl(184, 100%, 22%);
+ --Very-dark-cyan: hsl(179, 100%, 13%);
+ --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+ --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+}
+body {
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+
+    
+}
+.sedan {
+    background-color: var(--Bright-orange);
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.SUVs {
+    background-color: var(--Dark-cyan);
+    padding: 30px;
+}
+.luxury {
+    background-color: var(--Very-dark-cyan);
+    padding: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+img {
+    margin-bottom: 20px;
+}
+h1 {
+    color: var(--Very-light-gray-background-headings-buttons);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display'cursive;
+}
+p {
+    color: var(--Transparent-white-paragraphs);
+    margin-bottom: 70px;
+    line-height: 1.6;
+   
+}
+.orange {
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    border-radius: 30px;
+    color: var(--Bright-orange);
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+.cyan {
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    border-radius: 30px;
+    color: var(--Dark-cyan);
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+.dark-cyan {
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    border-radius: 30px;
+    color: var( --Very-dark-cyan);
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    
+}
+@media screen and (max-width: 930px) {
+    .container {
+        grid-template-columns: 320px;
+       
+    }
+    .sedan {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .luxury {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Outfit&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+    background-color: var(--Light-Grayish-Magenta);
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.container {
+    background-color: var(--White);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    /*box-shadow: 20px black;*/
+}
+.header {
+    display: flex;
+    justify-content: space-between;  
+}
+.main {
+    margin: 20px;
+}
+.main p {
+    font-size: 20px;
+    color: var(--Dark-Grayish-Magenta);
+}
+h1 {
+    margin-bottom: 20px;
+    color: var(--Very-Dark-Magenta);
+    font-size: 50px;
+}
+.rating {
+    display: flex;
+    margin: 20px;
+    background-color: var(--Light-Grayish-Magenta);
+    padding: 20px 50px;
+    color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+}
+.star {
+    margin-right: 20px;
+}
+#rate1 {
+    transform: translatex(-20%);
+}
+#rate2 {
+    transform: translatex(-10%);
+}
+
+.Reviews {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.review {
+    background-color: var(--Very-Dark-Magenta);
+    margin: 15px;
+    padding: 20px;  
+    border-radius: 10px; 
+    color: var(--White);
+}
+.review img {
+    border-radius: 100px;
+    width: 55px; 
+}
+.personal {
+    display: flex;
+    margin-bottom:20px;
+}
+.name {
+    padding: 10px;
+}
+.name p {
+    color: var(--Soft-Pink);
+}
+.review p {
+    line-height: 20px;
+}
+#review2 {
+    transform: translateY(15%);
+}
+#review3 {
+    transform: translateY(30%);
+}
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

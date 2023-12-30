@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=League+Spartan:wght@400;500;700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+body {
+    background-color: var(--Pale-blue);
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    font-size: 16px;
+}
+.container {
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    max-width: 400px;
+}
+.hero {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 20px;
+}
+h1 {
+    margin-bottom: 15px;
+}
+.main-p{
+    margin-bottom: 15px;
+    color: var(--Desaturated-blue);
+}
+.payment {
+    background-color: var(--Very-pale-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom:15px;
+    margin-left: 25px;
+    margin-right:25px;
+    border-radius: 10px;
+}
+.annual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.annual img {
+    padding-right: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.proceed{
+    background-color: var(--Bright-blue);
+    margin-left: 25px;
+    margin-right:25px;
+    margin-bottom:15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0px 10px 20px var(--Pale-blue);
+}
+.cancel{
+    font-size: 15px;
+    border: none;
+    margin-left: 25px;
+    margin-right:25px;
+    padding: 10px;
+    background-color: inherit;
+    color: var(--Desaturated-blue);
+}

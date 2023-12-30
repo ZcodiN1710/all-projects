@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+--Very-dark-blue-main: hsl(233, 47%, 7%);
+--Dark-desaturated-blue-card: hsl(244, 38%, 16%);
+--Soft-violet-accent: hsl(277, 64%, 61%);
+--White-main-heading-stats: hsl(0, 0%, 100%);
+--Slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+--Slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+body {
+    font-family:'Inter', sans-serif;
+    font-size: 18px;
+    background-color: var(--Very-dark-blue-main);
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+aside {
+    background-color: var(--Dark-desaturated-blue-card);
+    padding: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h1 {
+    color: var(--White-main-heading-stats);
+    margin-bottom: 30px;
+}
+span {
+    color: var(--Soft-violet-accent);
+}
+.main {
+    color: var(--Slightly-transparent-white-main-paragraph);
+    margin-bottom: 90px;
+}
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.stats h2 {
+    color: var(--White-main-heading-stats);
+}
+.stats p{
+    color: var(--Slightly-transparent-white-main-paragraph);
+}
+.img-sec img{
+ 
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-sec {
+    position: relative;
+}
+.img-sec::after {
+    position: absolute;
+    content: '';
+    max-width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+
+
+
+@media screen and (max-width: 300px) {
+    .container {
+       flex-direction: column;
+
+    } 
+}
