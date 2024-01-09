@@ -12,7 +12,7 @@ const BASE_URL = `https://superheroapi.com/api.php/${SUPERHERO_TOKEN}`;
 const getSuperHero = (id) => {
   fetch(`${BASE_URL}/${id}`)
     .then((response) => response.json())
-    .then((data) => { 
+    .then((data) => {
      const characterStats =  getStats(data)
       console.log(data);
       imgHero.innerHTML = `<img src="${data.image.url}">`;
@@ -51,7 +51,6 @@ randomHero.addEventListener("click", () => {
 });
 
 searchBarValue.onkeyup = () =>  getSearchHero(searchBarValue.value)
-    
 
 
 
