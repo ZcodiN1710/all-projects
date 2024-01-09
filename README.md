@@ -18,6 +18,9 @@ This repository is a compilation of individual projects created using a combinat
 # Projects
 Browse through the projects in this repository, each residing in its respective directory. The projects cover a wide range of themes and functionalities, showcasing versatility and creativity in web development.
 
+## Weather App
+   - **Description:** A simple weather application that fetches real-time weather data using an   API and displays it to the user. Built with HTML, CSS, and JavaScript.
+   - **Directory:** `weather-app`
 Project Name 1: Brief description of the project.
 Project Name 2: Brief description of the project.
 ...
